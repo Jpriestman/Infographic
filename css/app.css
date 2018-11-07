@@ -3,8 +3,8 @@ body {
 }
 
 .logo {
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .conSpace {
@@ -13,41 +13,12 @@ body {
   max-height: 700px;
 }
 
-
-/* CSS Animation */
-
-#outerCircle {
-  stroke-dashoffset: 1000;
-  stroke-dasharray: 1000;
-  animation-name: padda;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  }
-
-  #thirtyFive {
-    stroke-dashoffset: 1000;
-    stroke-dasharray: 1000;
-    animation-name: padda;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 1s;
-
-
-  }
-
-@keyframes padda {
-  to {
-    stroke-dashoffset: 0;
-  }
+h2 {
+  font-family: 'Fugaz One', cursive;
+  font-variant-caps: all-small-caps;
+  color: #8B4D28;
 }
 
-#ETHIOPIA:hover, #INDONESIA:hover, #COLOMBIA:hover, #VIETNAM:hover, #BRAZIL:hover {
-    transform-origin: 50% 50%;
-    animation: line-grow ease-out 300ms;
-}
-
-@keyframes line-grow {
-  0% { transform: scale(1) }
-  50% { transform: scale(1.5) }
-  100% { transform: scale(1) }
+#manIcon {
+  margin-top:  10%;
 }
