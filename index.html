@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <script src="node_modules/waypoints/lib/noframework.waypoints.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   </head>
   <body>
 
     <section class="row logo">
         <div class="columns small-12">
-            <img src="images/Logo-01.svg">
+            <img src="images/Logo-01.svg" class="animated fadeInRight">
         </div>
     </section>
 
@@ -38,13 +39,12 @@
                 </div>
                     <div class="columns small-12 medium-8 conSpace">
                         <h2>Coffee Adicts</h2>
+                        <p id="ajaxInfo"></p>
                         <div class="man columns small-6">
-                            <h2>Male 78%</h2>
-                            <object data="images/Man-01.svg" type="image/svg+xml" id="manIcon" class="svgGraphic" width="100px"></object>
+                            <object data="images/Man-01.svg" type="image/svg+xml" id="999" class="svgGraphic dataRef"  width="100px"></object>
                         </div>
                         <div class="woman columns small-6">
-                                <h2>Female 22%</h2>
-                            <object data="images/Woman-01.svg" type="image/svg+xml" id="womenIcon" class="svgGraphic" width="129px"></object>
+                            <object data="images/Woman-01.svg" type="image/svg+xml" id="998" class="svgGraphic dataRef" width="129px"></object>
                         </div>
                         </div>
             </section>
